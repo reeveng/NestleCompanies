@@ -28,7 +28,11 @@ const Tag = Object.freeze({
   SHELF: Symbol("shelf"),
   YOGURT: Symbol("yogurt"),
   FOOD: Symbol("food"),
-  TEA: Symbol("tea")
+  TEA: Symbol("tea"),
+  MAKEUP: Symbol("make-up"),
+  PROFESSIONAL: Symbol("professional"),
+  CONSUMER: Symbol("consumer"),
+  INEDIBLE: Symbol("inedibles")
 })
 
 export default [
@@ -139,7 +143,7 @@ export default [
   },
   {
     "id": "",
-    "name": "(cocoa) D'Onofrio",
+    "name": "(cocoa) D Onofrio",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
@@ -620,13 +624,13 @@ export default [
     "tags": []
   }, {
     "id": "",
-    "name": "Saint-Lambert",
+    "name": "SaintLambert",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "Sainte-Alix",
+    "name": "SainteAlix",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
@@ -698,469 +702,469 @@ export default [
     "tags": [Tag.WATER]
   }, {
     "id": "",
-    "name": "",
+    "name": "Cerevita",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Cerelac",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Cheerios",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Chocapic",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Cini Minis",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Clusters",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Cookie Crisp",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Curiously Strawberry",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Curiously Cinnamon",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Estrelitas",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Fitness",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Force Flakes",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Gold Flakes",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Golden Grahams",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Golden Morn",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Golden Nuggets",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Honey Stars",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Koko Krunch",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Lion Cereal",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Milo Cereals",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nescau Cereal",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nesquik Breakfast Cereal",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle Corn Flakes",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Shredded Wheat",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Shreddles",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "TRIO Cereal",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Uncle Tobys",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Chamyto",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Chambinho",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Chandelle",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Chiquitin",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Club",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Hirz",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "La Laitiere",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "La Lechera",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "LC1",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Le Viennois",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Moca",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Molico",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Munch",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nesvita",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Ninho",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Ski",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Sollys",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Sveltesse",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Svelty",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Yoco",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Abuelita",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Aero",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "After Eight",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "All Stars",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Allens",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Alpia",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Alpino",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Animal Bar",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Bertie Beetle",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Besos de Moza",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Big Turk",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Black Magic",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Blue Riband",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Boci",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Bono",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Bon Pari",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Breakaway",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Cailler",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Capri",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Caramac",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Carlos V",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Charge",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Chips Ahoy",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Choclait Chips",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Choco Crossies",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Chocolate Surpresa",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Chokito",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Cocosette",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Coffee Crisp",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Crunch",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
@@ -1172,475 +1176,475 @@ export default [
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Dairy Box",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Damak",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Drifter",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Fizzfindle",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Frigor",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Galak/Milkybar",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Heaven",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Hercules Bars",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Joe",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Joff",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "JOJO",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Kit Kat",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Lion",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Lollo",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Mabels",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Cracker",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Cremositas",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Gauchitas",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Maria Maizena",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Moraditas",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Rosquitas",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Salvado",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "TOP",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Wafer",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Yapita",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Matchmakers",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Milky Bar",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Mio",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Minties",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Mirage",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Moça",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Munch",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Munchies",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Negresco",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Negrita",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle Aero",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle Alpine White",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle Candy Shop",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle Classic",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle Dessert",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle Milk Chocolate",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle Princessa",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle with Almonds",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle Wonder Ball",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle Yes",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nuts",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Orion",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Passatempo",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Peppermint Crisp",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Perugina Baci",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Plaistowe",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Polo",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Prestígio",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Princessa",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Quality Street",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Rolo",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Rowntrees",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Fruit Gums",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Fruit Pastilles",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Jelly Tots",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Juicy Jellies",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Pick & Mix",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Randoms",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Tooty Frooties",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Sahne Nuss",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Scorched Almonds",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Sensação",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Smarties",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Suflair",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Sublime",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Sundy",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Super 8",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Susy",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Svitoch",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Szerencsi",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Tango",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Tango Mini Galletas",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Texan Bar",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Toffee Crisp",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
@@ -1652,115 +1656,1507 @@ export default [
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Nestle Toll House cookies",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Trencito",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Triangulo",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Turtles",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Walnut Whip",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "XXX mints",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Yorkie",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "ChefMate",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Davigel",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Minors",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Santa Rica",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Buitoni",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "California Pizza Kitchen",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Delissio Pizza",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "DiGiorno Pizza",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Hot Pockets",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Halsans Kok",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Jacks Pizza",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
   }, {
     "id": "",
-    "name": "",
+    "name": "Lean Cuisine",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Lean Pockets",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Papa Giuseppe",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Stouffers",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Sweet Earth Foods",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Tombstone Pizza",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Wagner Pizza",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Frozen desserts",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Ahusglass",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Aino",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Camy",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "DOnofrio",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Делта",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Δέλτα",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Nestle Dibs",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Dreyer's",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Drumstick",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Eskimo",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Frigor",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Frisco",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Froneri",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Kimo",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Kimy",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Maxibon",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Mat Kool",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Mivvi",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Motta",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Movenpick",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Nestlé Drumstick",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Nestlé Ice Cream",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Nestlé Princessa",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Oreo Frozen Dessert Sandwiches",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Outshine",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Pingviini",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "PushUp",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Real Dairy",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Savory",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Schöller",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Skinny Cow",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Sorbetes",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Temptations",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Underground is",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "zer0% Fat",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Boost",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Carnation Instant Breakfast",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Compleat",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Crucial",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Diabetisource",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Fibersource",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Garden of Life",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Glytrol",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Impact",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Isosource",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Meritene",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Modulen",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Atrium Innovations",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Douglas Laboratories",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Genestra brands",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Novasource Renal",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Nutren",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Optifast",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Optifibre",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Peptamen",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Persona Nutrition",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Pure Encapsulations",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Resorb",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Resource",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Sustagen",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Trophic",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Wobenzym",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Alfare",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Beba",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Cerelac",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Bona",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Farinha Láctea",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "FM 85",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Gerber",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Good Start",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Guigoz",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Lactogen",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Nan",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "NAN HA",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "NanSoy",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "NaturNes",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Neslac",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Nestlé",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Nestlé Bear Brand",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Nestogen",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Nestum",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Nido",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Piltti",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "PreNan",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "SMA",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Wyeth",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Neston",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Nesvita",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Pria",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Supligen",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Bakers",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Petcare",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Beta",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Bonio",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Bonnie",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Castor & Pollux",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Chef Michael's Canine Creations",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Felix",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Fido",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Go Cat",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Gourmet",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Lily's Kitchen",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Lucky Dog",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Merrick",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Mon Petit",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "PetLife",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Purina",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Supercoat",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Tails",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Tidy Cats",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Totalcare",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Whole Earth Farms",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Winalot",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Nestlé Purina petcare products",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Alpo",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Purina Beggin' Strips",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Busy Bone",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Beneful",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Cat Chow",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Dog Chow",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Fancy Feast",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Friskies",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Mighty Dog",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Purina",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Purina ONE",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Purina Pro Plan",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Buitoni",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Herta",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Katie's Pizza",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Toll House",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "CHEF",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Carpathia",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Thomy",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Haoji",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Maggi",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Totole",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Winiary",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Carnation",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "CoffeeMate",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Milo",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Nestlé Omega Plus",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Tendre Noix",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Acti-V",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "ActiPlus",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Fruit Selection Yogurt",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Hirz",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Longa Vida",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Molico",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Munch Bunch",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Nestlé Raita",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Rawaytee Maza",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Ski",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Sweet N Tasty Yogurt",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Yelly",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "L'Oréal",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Urban Decay",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Lancôme",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Maybelline",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Garnier",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "L'Oréal Technique",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "L'Oréal Professionnel",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "ARTec",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Innate",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "L'Oreal",
+    "countries_of_operation": [],
+    "parent_company": parentEnum.IS_PARENT,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Kérastase",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Kéraskin Esthetics",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Matrix Essentials",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Mizani",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "PureOlogy Research",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Redken 5th Avenue NYC",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Shu Uemura Art of Hair",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Carol's Daughter",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Carita",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Essie",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Decléor",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Botanicals Fresh Care",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Cheryl's Cosmeceuticals",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "L'Oreal Luxe",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Lancôme",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Yves Saint Laurent Beauté",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Giorgio Armani Beauty",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Kiehl's",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Diesel",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Biotherm",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Cacharel",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Viktor & Rolf",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Ralph Lauren Fragrances",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Shu Uemura",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Clarisonic",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Guy Laroche",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Paloma Picasso",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Urban Decay",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Yue Sai",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Helena Rubinstein",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "IT Cosmetics",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "House 99",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Atelier Cologne",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Proenza Schouler",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Valentino",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "L'Oréal Paris",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Color&Co",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Ombrelle",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Garnier",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, , {
+    "id": "",
+    "name": "Maybelline",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "NYX Cosmetics",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "SoftSheen-Carson",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Carol's Daughter",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Créateurs de Beauté",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Essie",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Magic",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Niely",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Colorama",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "3ce",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Vichy",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "La Roche-Posay",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Skinceuticals",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Roger&Gallet",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Sanoflore",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Dermablend",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "AcneFree",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Ambi",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "CeraVe",
+    "countries_of_operation": [],
+    "parent_company": 1,
+    "tags": []
+  }, {
+    "id": "",
+    "name": "Logocos since 2018",
     "countries_of_operation": [],
     "parent_company": 1,
     "tags": []
